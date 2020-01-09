@@ -1,38 +1,26 @@
 'use strict';
+// let num = 20;
+// function showMassage(text) {
+//     alert(text);
+//     let num = 10;
+//      console.log(num);
+// }
 
+// showMassage("hello world");
+// console.log(num); 
 
-let persone= {
-    name: "Abdulla",
-    age: 24,
-    isMarried: false
-};
+function calc(a,b){
+    return(a+b)
+}
 
-console.log(persone["age"]);
+console.log(calc(3,4));
 
-let arr = ['plum.png','hap.jpg','apple.bmp'];
+console.log(calc(5,9));
 
-console.log(arr[2]);
+function retVar() {
+    let num = 50;
+    return num;
+}
 
-// alert('dsadsad');
-
-// let answer= confirm('here you are?');
-// console.log(answer);
-
-// let answer= +prompt('18?','yes');
-// console.log(typeof(answer));
-// console.log(4+'-object');
-// console.log('arr[2]'+ '-object');
-
-let incr=10,
-    decr=10;
-
-console.log(incr++);
-console.log(decr--);
-
-console.log(5%3);
-console.log("2"==2);
-
-let isCHacked= true,
-    isClose = true;
-
-    console.log(isCHacked || isClose);
+let anotherNum = retVar();
+console.log(anotherNum);
