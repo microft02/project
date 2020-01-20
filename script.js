@@ -1,23 +1,74 @@
-'use strict';
-// let num = 20;
-// function showMassage(text) {
-//     alert(text);
-//     let num = 10;
-//      console.log(num);
+// let num = 50;
+
+// if (num < 49) {
+//     console.log("neverno")
+// } else if (num > 100){
+//     Console.log("mnogovate")
+// } else {
+//     console.log("verno")
+// };
+
+// (num == 50) ? console.log('verno') : Console.log("ne verno");
+
+// switch (num) {
+//     case num < 49 :
+//         console.log("neverno");
+//         break;
+//     case num > 100 :
+//         console.log("bolshe");
+//         break;
+//     case num > 80 :
+//         console.log("esho bplshe");
+//         break;    
+//     case 50 :
+//         console.log("verno0");
+//         break;
+//     case 70 :
+//         console.log("esho nemnojko bolshe");
+//         break;
+//     default:
+//         console.log("shtoto poshlo ne tak");
+//         break;
 // }
 
-// showMassage("hello world");
-// console.log(num); 
+// while ( num < 55 ){
+//     console.log(num);
+//     num++;
+// }
+// let num = 50;
+// do {
+//     console.log(num);
+//     num++;
+// } while (num < 55);
 
-function calc(a,b){
-    return(a+b)
-}
+// for (let  i = 1; i < 8; i++ ) {
+//     if (i == 6) {
+//         continue;
+//     }
+//     console.log(i)
+// }
+// let num = 123
+// function showMesssage(text) {
+//     alert(text);
+   
+//    console.log(num)
+// }
 
-console.log(calc(3,4));
+// showMesssage("Hello world");
+// console.log(num);
 
-console.log(calc(5,9));
+// function calc(a,b) {
+//     return (a + b);
+// }
 
-function retVar() {
+let calc = (a,b) =>a+b
+
+console.log(calc(4,3));
+
+console.log(calc(6,9));
+
+
+function retVar(){
     let num = 50;
     return num;
 }
